@@ -104,7 +104,7 @@ class Api {
 }
 
 const api = new Api({
-  baseUrl: 'https://mesto.world.nomoredomains.monster/',
+  baseUrl: 'https://api.mesto.world.nomoredomains.monster/',
 });
 
 export default api;

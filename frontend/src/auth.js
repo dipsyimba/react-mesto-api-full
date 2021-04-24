@@ -1,4 +1,4 @@
-export const BASE_URL = 'https://mesto.world.nomoredomains.monster';
+export const BASE_URL = 'https://api.mesto.world.nomoredomains.monster';
 
 const responseCheck = (response) =>
   response.ok ? response.json() : Promise.reject(`Ошибка ${response.status}`);
