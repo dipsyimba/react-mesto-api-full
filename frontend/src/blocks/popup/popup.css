@@ -1,0 +1,36 @@
+@import url(./__btn-close/popup__btn-close.css);
+@import url(./__button/popup__button.css);
+@import url(./__button/_disabled/popup__button_disabled.css);
+@import url(./__container/popup__container.css);
+@import url(./__form/popup__form.css);
+@import url(./__input/popup__input.css);
+@import url(./__input/_profile/popup__input_profile_name.css);
+@import url(./__input/_profile/popup__input_profile_occupation.css);
+@import url(./__title/popup__title.css);
+@import url(./__image/popup__image.css);
+@import url(./__img-title/popup__img-title.css);
+@import url(./__img-container/popup__img-container.css);
+@import url(./__add/popup__add.css);
+@import url(./__input/_add/popup__input_add_link.css);
+@import url(./__input/_add/popup__input_add_name.css);
+@import url(./__field/popup__field.css);
+@import url(./__input-error/popup__input-error.css);
+@import url(./__input/_state/popup__input_state_invalid.css);
+@import url(./__info-text/popup__info-text.css);
+@import url(./__status-image/popup__status-image.css);
+@import url(./__container/_type_info/popup__container_type_info.css);
+
+.popup {
+  display: flex;
+  width: 100%;
+  min-height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  position: fixed;
+  top: 0px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s, visibility 0.5s;
+  justify-content: center;
+  align-items: center;
+}

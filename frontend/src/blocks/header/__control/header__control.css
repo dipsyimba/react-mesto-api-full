@@ -1,0 +1,6 @@
+.header__control {
+  display: flex;
+  flex-direction: row;
+  margin-top: 6px;
+  align-items: center;
+}

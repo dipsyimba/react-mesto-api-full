@@ -1,0 +1,14 @@
+.grid-item__trash {
+    position: absolute;
+    top: 18px;
+    right: 15px;
+    border-style: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.grid-item__trash:hover {
+    opacity: 0.6;
+    transition: linear 0.5s;
+}

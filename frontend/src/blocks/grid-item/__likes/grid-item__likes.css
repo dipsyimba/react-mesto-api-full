@@ -1,0 +1,8 @@
+.grid-item__likes {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: auto;
+  padding: 0;
+  width: 21px;
+}
