@@ -2,7 +2,7 @@
   "name": "express-mesto",
   "version": "1.0.0",
   "description": "Проект Mesto: Frontend & Backend",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js",
@@ -11,6 +11,7 @@
   "author": "Azat Salimov",
   "license": "ISC",
   "devDependencies": {
+    "nodemon": "^2.0.7",
     "eslint": "^7.2.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1"
@@ -28,7 +29,6 @@
     "helmet": "^4.5.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.12.2",
-    "nodemon": "^2.0.7",
     "validator": "^13.5.2",
     "winston": "^3.3.3"
   }

@@ -24,27 +24,16 @@ const getCurrentUser = (req, res, next) => {
     .then((user) => {
       res.send(user);
     })
-    .catch((error) => {
-      if (error.name === 'CastError') {
-        next(new NotFoundError('Такой пользователь отсутствует'));
-      }
-      next(error);
-    });
+    .catch(next);
 };
 
 const getUserById = (req, res, next) => {
-  const { userId } = req.params;
-
-  User.findById(userId)
+  User.findById(req.params.userId)
     .orFail(new NotFoundError('Такой пользователь не найден'))
     .then((user) => {
       res.send(user);
     })
-    .catch((error) => {
-      if (error.name === 'CastError') {
-        next(new NotFoundError('Такой пользователь не найден'));
-      }
-    });
+    .catch(next);
 };
 
 const createUser = (req, res, next) => {

@@ -1,0 +1,32 @@
+# Production
+
+/build
+frontend/build
+
+# Dependencies
+
+/node_modules
+frontend/node_modules
+backend/node_modules
+
+# Logs
+
+/logs
+*.log
+npm-debug.log*
+
+# Other
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.DS_Store
+.vscode
+/.pnp
+.pnp.js
+/coverage
+.npm
+npm-debug.log*
+.idea
